@@ -8,6 +8,6 @@ def line(array)
       number = index + 1
       array[index] = "number. " + name
     end
-    "The line is currently: #{array.join(" ")}"
+    puts "The line is currently: #{array.join(" ")}"
   end
 end
