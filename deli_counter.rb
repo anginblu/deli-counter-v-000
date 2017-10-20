@@ -9,3 +9,6 @@ def line(array)
       array(index) = "number. " + name
     end
     "The line is currently: #{array.join(" ")}"
+  end
+end
+
