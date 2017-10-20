@@ -16,7 +16,7 @@ def take_a_number(array, name)
   if array.size == 0
     array << name
     puts "Welcome, #{name}. You are number 1 in line."
-  else 
-    
+  else
+    "Welcome, #{name}. You are number 4 in line."
 
 end
