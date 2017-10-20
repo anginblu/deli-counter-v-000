@@ -19,5 +19,7 @@ def take_a_number(array, name)
   else
     number = array.size + 1
     "Welcome, #{name}. You are number #{number} in line."
+    array << name
   end
 end
+
