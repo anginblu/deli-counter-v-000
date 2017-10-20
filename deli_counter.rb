@@ -22,3 +22,7 @@ def take_a_number(array, name)
     array << name
   end
 end
+
+def now_serving(array)
+  if array.size == 0
+    
