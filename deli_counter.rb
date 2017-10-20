@@ -18,6 +18,6 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     number = array.size + 1
-    "Welcome, #{name}. You are number 4 in line."
+    "Welcome, #{name}. You are number #{number} in line."
 
 end
