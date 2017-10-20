@@ -25,4 +25,6 @@ end
 
 def now_serving(array)
   if array.size == 0
+    "There is nobody waiting to be served!"
+  else
     
